@@ -80,7 +80,9 @@ const DetailPage = () => {
 						return { ...currentCartItem };
 					}
 				})
-				.filter((currentCartItem) => currentCartItem !== undefined);
+				.filter(
+					(currentCartItem) => currentCartItem !== undefined
+				) as CartItem[];
 
 			// console.log("Del Updated", updatedCartItems);
 
