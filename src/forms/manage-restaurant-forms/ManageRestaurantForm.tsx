@@ -70,22 +70,8 @@ const ManageRestaurantForm = ({ restaurant, onSave, isLoading }: Props) => {
 			return;
 		}
 
-		// price lowest domination of 100 = 100pence == 1GBP
-		// const deliveryPriceFormatted = parseInt(
-		// 	(restaurant.deliveryPrice / 100).toFixed(2)
-		// );
-
-		// const menuItemsFormatted = restaurant.menuItems.map(
-		// 	(item: { price: number }) => ({
-		// 		...item,
-		// 		price: parseInt((item.price / 100).toFixed(2)),
-		// 	})
-		// );
-
 		const updatedRestaurant = {
 			...restaurant,
-			// deliveryPrice: deliveryPriceFormatted,
-			// menuItems: menuItemsFormatted,
 		};
 
 		form.reset(updatedRestaurant);

@@ -38,7 +38,7 @@ const SearchResultCard = ({ restaurant }: Props) => {
 						</div>
 						<div className="flex items-center gap-1">
 							<Banknote />
-							Delivery from INR{restaurant.deliveryPrice}
+							Delivery from ₹{restaurant.deliveryPrice}
 						</div>
 					</div>
 				</div>
