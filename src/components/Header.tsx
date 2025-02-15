@@ -4,12 +4,12 @@ import Navbar from "./Navbar";
 
 const Header = () => {
 	return (
-		<div className="border-b-2 border-b-orange-500 py-6">
-			<div className="container ,x-auto flex justify-between items-center">
+		<div className="border-b-2 border-b-orange-500 py-6 flex items-center">
+			<div className="container px-1 flex justify-between items-center">
 				<Link
 					className="text-3xl font-bold tracking-tight text-orange-500"
 					to="/">
-					OrderIt!
+					OrderIt
 				</Link>
 
 				<div className="md:hidden">
